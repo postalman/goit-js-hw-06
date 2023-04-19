@@ -25,4 +25,5 @@ function onFormData(event) {
     event.currentTarget.elements.email.value;
   formData[event.currentTarget.elements.password.name] =
     event.currentTarget.elements.password.value;
+    console.log(formData);
 }
